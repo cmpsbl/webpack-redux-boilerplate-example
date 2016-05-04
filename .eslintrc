@@ -1,0 +1,19 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "rules": {
+    "global-require" : "off",
+    "no-console"     : "off",
+    "new-cap"        : "off"
+  },
+  /*Disabled*/
+  /*"settings": {
+    "import/resolver": "webpack"
+  },*/
+  "globals": {
+    "__DEV__"        : false,
+    "__PROD__"       : false,
+    "__TEST__"       : false,
+    "__PRERELEASE__" : false
+  }
+}
