@@ -1,8 +1,5 @@
-/* eslint key-spacing:0 spaced-comment:0 */
 /* eslint quote-props: ["off"] */
-
 import _debug from 'debug';
-import path from 'path';
 
 const debug = _debug('app:config');
 debug('Loading configuration.');
@@ -25,6 +22,6 @@ export const environConfig = {
 // Server Configuration
 // ----------------------------------
 export const serverConfig = {
-  host  : 'localhost',
-  port  : process.env.PORT || 3000,
+  host: 'localhost',
+  port: process.env.PORT || 3000,
 };
