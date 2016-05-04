@@ -2,6 +2,7 @@
 # Production files, directories and dependencies
 # https://docs.npmjs.com/misc/faq#should-i-check-my-node-modules-folder-into-git
 dist
+public
 examples
 node_modules
 

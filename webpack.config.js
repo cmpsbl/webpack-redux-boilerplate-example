@@ -35,7 +35,7 @@ const dirConfig = {
   ],
 
   // Output Paths
-  outputPath: path.join(__dirname, 'dist'),
+  outputPath: path.join(__dirname, 'public'),
   outputJS: './js/[name].[chunkhash].js',
   outputCommonJS: './js/[name].bundle.js',
   outputCSS: './css/[name].[contenthash].css',
