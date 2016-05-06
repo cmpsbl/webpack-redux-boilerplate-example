@@ -1,6 +1,13 @@
 language: node_js
 node_js:
-  - "5"
   - "4"
 notifications:
   slack: interios:mcpkmXJQF3AnjsItlckaaaT1
+deploy:
+  provider: opsworks
+  access_key_id: AKIAJCRMBFCWZF4FFZIQ
+  secret_access_key:
+    secure: i/noiooW3JncUQqm42hNZb8eWreA25aCLCtyWgvRshLbWpG0YbZxu9uLicNotTVtOcbCx82DHiyfOegHxwAMo6fJ6CWFJthejjDMGVsL5x1OM0rxh8hJ22afNv7l4A7r+y6ypxByYxgJItJj5UBdO8GqILXx/zcka6H7f+h6nvJ/WqP/EVMzBkyWFGfkLe4zkGZEhSKEL5Zu/P588jwwv6XPcEpVp/Po9Ut8jl9cZoPxG6u3FYzyTs7b7vRJGiupaZe3QQGfrzaK8UH43vSRe+tSR1pqFK3cXHr0NmxJiDC9P7H5viXrDKS1gQjFdql4Fy/5PZ+ZK71Vzrcae/8yrIgQbA0ewHou/C865c/4wvTfvUBA7vxZrxMTSAhfLpsZrVf6Ol02l0biik0qg+oaYa2DfzMTJcdjOrsVncuPcFzqgjWanWWKBM9xkumeWp/zFl2H12cTBFf1qQfRWUSZT0NpHmFU9OlzsfmUAY8VEE05THPREsV64vHXkUFbBFOCT7HL6FTIvGg23PFpHWZgSVHA9p36VviEUJIx9fCCMlyTLFXg8tDHAa06s9V+Tybl2KVlsnFlDIUWPQBH2uH32NoGyKCAB6OhiUVAjVo43ZAXfK52n+6QXx+qt4Tuf6rFqinOZpkXtXWR2Sa0zUvrrGQFOE/7dU0cmNj/N97sjok=
+  app-id: e5ae208f-8474-41d7-9751-c61c07666f8a
+  on:
+    repo: dobby-in-the-house/webpack-redux-boilerplate-example
