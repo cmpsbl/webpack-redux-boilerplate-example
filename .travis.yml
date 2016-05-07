@@ -3,6 +3,7 @@ node_js:
 - '4'
 notifications:
   slack: interios:mcpkmXJQF3AnjsItlckaaaT1
+before_deploy: "echo 'ready?'"  
 deploy:
   provider: opsworks
   access_key_id: AKIAJCRMBFCWZF4FFZIQ
