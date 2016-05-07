@@ -5,6 +5,7 @@ notifications:
   slack: interios:mcpkmXJQF3AnjsItlckaaaT1
 before_deploy: "echo 'ready?'"  
 deploy:
+  skip_cleanup: true
   provider: s3
   access_key_id: AKIAJCRMBFCWZF4FFZIQ
   secret_access_key:
