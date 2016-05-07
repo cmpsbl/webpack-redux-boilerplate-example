@@ -10,7 +10,7 @@ deploy:
   secret_access_key:
     secure: GoCjnHMs32bPihOWGaglkEpNDL4qVmAZZSDbhFElWA92R1hoaG/85QUH1N/OXNYYjoQ3HoMeb+c+mfzFngDn/nnxfJuQIjM5OWOvmwxlfA7CZUc27POk+66/Og4q1ei5Muu0b6r5jtX/NCERXZj1wNJHHtonF/qWC1qenmtpIoBIzSC6EZ9OL1VcX/EScFGgL1/Azt1B8kL692gkNrcx1+8BHhs9f8jb7B6zR4UYNdCLYczYu0qMmWfCYwGzi/RkKUlYTFcYiAGrPs+7vPT1cp9wzBf7iZBdoXrkiq6rwwSTwx0BjsvPS+kWvFDQz5nB2vRfH2No7grpCVH9G7wlTzU/bfgdVmIeOuCETLxV3x7BdqMhi1Q8t+raA2hatvKkRt/4SZO/ki6tMi3RIdUHDaikXBjTr6xZSnKxk0Z8QDzDY3tLIY9qoTBMjg1y/arOuZCA0J4A2mmVdPyxfWPD1PNIrqnAV9ZlWQgkGC97BZnJLjAfQT4SQf0na6tFtz747IYgGQFgE8Pl9UEyyjl3odNN8onKSvjCAtkqr7RtoaGpcnZjvc0y55MN4PfBBcklURhXuPVD4y+aAr1FWEgPp2bsTuhip1tdmAPx0dIDCSpC+cZL3y9B/5fqwtIxhNn1cu54PJiuZnc9bVLUsu2syU4EtUb6HOc8obGQPTFQbWA=
   bucket: cloister-travis-bucket
-  acl: ''
+  acl: 'bucket_owner_full_control'
   on:
     repo: dobby-in-the-house/webpack-redux-boilerplate-example
     branch: develop
