@@ -3,14 +3,14 @@ node_js:
 - '4'
 notifications:
   slack: interios:mcpkmXJQF3AnjsItlckaaaT1
-before_deploy: "echo 'ready?'"  
 deploy:
-  skip_cleanup: true
   provider: opsworks
   access_key_id: AKIAJCRMBFCWZF4FFZIQ
   secret_access_key:
     secure: pXexhypYbZvwienlqB8IlVOFtGzRPOxMyYgH28B/i860AmQ+BE2TKxMBZDwvKnV7q2ZAVhrxWckH1D2GSY/btlol4isfa1dsfXoGedFgnwk03XWbXkygUSW0H53rWiVWUidFB9DSG3PJe6kSFbvGXaMibN3XFxjxjLWxgqnAcw8rS00jhHPgZAt5fkNHRMRUzu4t7rC9dK6E0nsoykxqWRaQjBP0DmSQRjlZ3innpJwJ7/oAf/n/YjSqThRc5ft4lckTjEU8gdTVmrFQSEXpGE1a8dyPaKsbigZYQ23i4DRymrIL9IczGEyQuBdcAduCcTHLQeZw8mucCruhRloNqJ/gPQYNcalbJX45zdst60zr6pvYRNDcHRFfLlDcMaMX6Y4IltWOEZkv0p+4mazx7XA1KZaFt9LupKWT0ATrpneNq3aM+k1VG2lK8Iw/feTlP0YersPXuUUlxL3BBv2/LUgSpNRyXrUs/Fv6/XhqXfwPriVN4SH616Zyq8Rn4y/kGDdo30Jc1/msD4AbqN5fLdKZsXNBG0MnQt/mQ8tedJO4bUoMdQyfiIwsPZJNTNKQhq3239Z2d0f8Bu9uPfcngnCT3+gmcrQGFzxGGScm9v6upaX3xopZ1pU+kMXPQwHfg8oftsUSObFIafU7OCnh3yrqIEdz507z4vm80Yq/vHY=
   app-id: e5ae208f-8474-41d7-9751-c61c07666f8a
+  skip_cleanup: true
+  wait-until-deployed: true
   on:
     repo: dobby-in-the-house/webpack-redux-boilerplate-example
     branch: develop
