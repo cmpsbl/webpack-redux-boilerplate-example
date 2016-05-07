@@ -8,7 +8,7 @@ var bodyParser = require('body-parser');
 var express = require('express');
 var app = express();
 
-app.set('port', (process.env.PORT || 3000));
+app.set('port', (process.env.PORT || 80));
 
 // Routes for real application with React-Router
 app.use('/css', express.static(path.join(__dirname, 'public/css')));
