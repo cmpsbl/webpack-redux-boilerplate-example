@@ -77,12 +77,17 @@
   },
   "dependencies": {
     "babel-runtime": "^6.6.1",
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "express-urlrewrite": "^1.2.0",
+    "fs-extra": "^0.30.0",
     "lodash": "^4.11.1",
     "react": "^15.0.1",
     "react-css-modules": "^3.7.6",
     "react-dom": "^15.0.1",
     "react-redux": "^4.4.5",
     "react-router": "^2.3.0",
-    "redux": "^3.5.2"
+    "redux": "^3.5.2",
+    "request": "^2.72.0"
   }
 }
